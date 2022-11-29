@@ -19,3 +19,15 @@ export const getIpBase = async (settimeZone: any) => {
     console.log(err);
   }
 };
+
+
+export const getWorldTime = async (timezone:string)=>{
+  try{
+  const response = await axios.get(`http://worldtimeapi.org/api/ip/${timezone}`)
+  console.log(response);
+  
+  }catch(err:any){
+    console.log(err);
+    
+  }
+}
