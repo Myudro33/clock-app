@@ -1,11 +1,14 @@
 import React, { useState } from 'react'
-import { getQuotes } from './Data/Api'
+import { getQuotes,getIpBase,getWorldTime } from './Data/Api'
+
 
 
 const App = () => {
 const [quote, setQuote] = useState({})
-
-// getQuotes(setQuote)
+const [timezone, settimeZone] = useState("Asia/Tbilisi")
+// getIpBase(settimeZone)
+console.log(timezone);
+getWorldTime(timezone)
   return (
     <div>App</div>
   )
