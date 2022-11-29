@@ -9,6 +9,7 @@ export const getQuotes = async (func: any) => {
     console.log(err);
   }
 };
+
 export const getIpBase = async (settimeZone: any) => {
   try {
     const response = await axios.get(
