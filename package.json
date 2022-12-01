@@ -1,7 +1,7 @@
 {
   "name": "clock-app",
   "version": "0.1.0",
-  "homepage": "",
+  "homepage": "https://myudro33.github.io/clock-app",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
