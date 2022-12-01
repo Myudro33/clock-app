@@ -35,9 +35,6 @@ const App = () => {
       }
     }
   }
-
-  console.log(localTime);
-
   return (
     <div className="app">
       {time > 6 && time < 19 ? (
