@@ -47,7 +47,7 @@ const Clock = ({ slicedTime, time,setfooter,footer }: ClockProps) => {
           ) : (
             <ModeNightOutlinedIcon sx={{ color: "white" }} className="rotate" />
           )}
-          {time > 6 && time < 12 && (
+          {time > 6 && time < 13 && (
             <Typography
               sx={{
                 fontSize: { xs: "15px", sm: "20px" },
@@ -57,7 +57,7 @@ const Clock = ({ slicedTime, time,setfooter,footer }: ClockProps) => {
               Good Morning
             </Typography>
           )}
-          {time > 12 && time < 17 && (
+          {time > 12 && time < 18 && (
             <Typography
               sx={{
                 fontSize: { xs: "15px", sm: "20px" },
@@ -67,7 +67,7 @@ const Clock = ({ slicedTime, time,setfooter,footer }: ClockProps) => {
               Good Afternoon
             </Typography>
           )}
-          {time > 17 && time < 21 && (
+          {time > 17 && time < 22 && (
             <Typography
               sx={{
                 fontSize: { xs: "15px", sm: "20px" },
