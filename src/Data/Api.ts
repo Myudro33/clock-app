@@ -11,7 +11,7 @@ export const getQuotes = async (func: any) => {
 };
 export const getWorldTime = async (setlocalTime:any)=>{
   try{
-  const response = await axios.get(`http://worldtimeapi.org/api/ip`)
+  const response = await axios.get(`https://worldtimeapi.org/api/ip`)
   setlocalTime(response.data);  
   }catch(err:any){
     console.log(err);
